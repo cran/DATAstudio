@@ -39,6 +39,6 @@
 \references{
   de Carvalho, M., Barney, B. and Page, G. L. (2020)
   Affinity-based measures of biomarker performance evaluation.
-  \emph{Statistical Methods in Medical Research}, \bold{20}, 837-‒853.
+  \emph{Statistical Methods in Medical Research}, \bold{20}, 837-853.
 }
 \keyword{Medical}

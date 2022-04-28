@@ -13,7 +13,7 @@
 \references{
   de Carvalho, M., Turkman, K. F. and Rua, A. (2013)
   Dynamic threshold modelling and the US business cycle.
-  \emph{Journal of the Royal Statistical Society, Ser.} C, \bold{62}, 535--550.
+  \emph{Journal of the Royal Statistical Society, Ser.} C, \bold{62}, 535-550.
 }
 \seealso{
   \url{https://www.maths.ed.ac.uk/~mdecarv/decarvalho2013ash.html}

@@ -13,8 +13,8 @@
   \code{0} = success).
 }
 \references{
-  de Carvalho, M. (2012) A Generalization of the Solis--Wets method.
-  \emph{Journal of Statistical Planning and Inference}, \bold{142}, 633--644.
+  de Carvalho, M. (2012) A Generalization of the Solis-Wets method.
+  \emph{Journal of Statistical Planning and Inference}, \bold{142}, 633-644.
 }
 \examples{
 data(challenger)

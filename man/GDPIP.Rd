@@ -13,7 +13,7 @@
 \references{
   de Carvalho, M. and Rua, A. (2017). Real-time nowcasting the US output
   gap: Singular spectrum analysis at work. \emph{International Journal
-  of Forecasting}, \bold{33}, 185--198.
+  of Forecasting}, \bold{33}, 185-198.
 }
 \source{
   Federal Reserve Bank of Philadelphia.

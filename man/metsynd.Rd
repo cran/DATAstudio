@@ -44,7 +44,7 @@
   González-Manteiga, W. (2016) Functional covariate-adjusted partial
   area under the specificity-ROC curve regression with an application
   to metabolic syndrome case study. \emph{Annals of Applied Statistics},
-  \bold{10}, 1472‒1495
+  \bold{10}, 1472-1495
 }
 \examples{
 data(metsynd)

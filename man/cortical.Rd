@@ -44,11 +44,11 @@
   Brignell, C.J., Dryden, I.L., Gattone, S.A., Park, B., Leask, S.,
   Browne, W.J. and Flynn, S. (2010) Surface shape analysis, with an
   application to brain surface asymmetry in
-  schizophrenia. \emph{Biostatistics}, \bold{11}, 609--630.
+  schizophrenia. \emph{Biostatistics}, \bold{11}, 609-630.
   
   Martos, G. & de Carvalho, M. (2018) Discrimination surfaces with
   application to region-specific brain asymmetry
-  analysis. \emph{Statistics in Medicine}, \bold{37}, 1859--1873.
+  analysis. \emph{Statistics in Medicine}, \bold{37}, 1859-1873.
 }
 \examples{
   ## Martos and de Carvalho (2018; Fig 1 a)

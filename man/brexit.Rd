@@ -27,7 +27,7 @@
 \references{
   de Carvalho, M. and Martos, G. (2020). Brexit: Tracking and
   disentangling the sentiment towards leaving the EU. \emph{International Journal
-  of Forecasting}, \bold{36}, 1128--1137.
+  of Forecasting}, \bold{36}, 1128-1137.
 }
 \source{
   Financial Times (FT) Brexit poll tracker.	

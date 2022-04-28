@@ -15,7 +15,7 @@
 \references{
   de Carvalho, M. and Martos, G. (2022). Modeling interval trendlines:
   Symbolic singular spectrum analysis for interval time series.
-  \emph{Journal of Forecasting}, \bold{41}, 167--180.
+  \emph{Journal of Forecasting}, \bold{41}, 167-180.
 }
 \source{
   Yahoo Finance. 

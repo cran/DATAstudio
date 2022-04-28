@@ -12,12 +12,12 @@
 \source{
   de Carvalho, M., Rodrigues, P. and Rua, A. (2012)
   Tracking the US business cycle with a singular spectrum analysis.
-  \emph{Economics Letters}, \bold{114}, 32--35.
+  \emph{Economics Letters}, \bold{114}, 32-35.
 }
 \references{
   de Carvalho, M. and Rua, A. (2017) Real-time nowcasting the US output
   gap: Singular spectrum analysis at work. \emph{International Journal of
-    Forecasting}, \bold{33}, 185--198.
+    Forecasting}, \bold{33}, 185-198.
 }
 \examples{
 data(GDP)

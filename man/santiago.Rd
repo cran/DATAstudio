@@ -12,9 +12,9 @@
   A dataframe with 10126 observations on one variable.
 }
 \references{
-  Galasso, B., Zemel, Y. and de Carvalho, M. (2022, in press). Bayesian
+  Galasso, B., Zemel, Y. and de Carvalho, M. (2022). Bayesian
   semiparametric modelling of phase-varying point processes.
-  \emph{Electronic Journal of Statistics}.
+  \emph{Electronic Journal of Statistics}, \bold{16}, 2518-2549.
 }
 \source{
   NOAA's National Centers for Environmental Information (NCEI).

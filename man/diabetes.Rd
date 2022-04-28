@@ -30,11 +30,11 @@
 \references{
   Inácio de Carvalho, V., de Carvalho, M. and Branscum, A. (2017)
   Nonparametric Bayesian covariate-adjusted estimation of the Youden index.
-  \emph{Biometrics}, \bold{73}, 1279--1288.
+  \emph{Biometrics}, \bold{73}, 1279-1288.
   
   Inácio de Carvalho, V., Jara, A., Hanson, T. E. and de Carvalho, M. (2013)
   Bayesian nonparametric ROC regression modeling.
-  \emph{Bayesian Analysis}, \bold{8}, 623-‒646.
+  \emph{Bayesian Analysis}, \bold{8}, 623-646.
 }
 \examples{
 data(diabetes)

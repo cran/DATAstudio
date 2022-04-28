@@ -5,7 +5,7 @@
 \description{
   The Danish Fire Insurance Claims Database includes 2167 industrial
   fire losses gathered from the Copenhagen Reinsurance Company over the
-  period 1980--1990.
+  period 1980-1990.
 }
 \usage{fire}
 \format{A dataframe with 2167 observations on five variables, namely:
@@ -20,7 +20,7 @@
 \references{
   de Carvalho, M. & Marques, F. (2012) Jackknife Euclidean
   likelihood-based inference for Spearman's rho.  \emph{North American
-    Actuarial Journal}, \bold{16}, 487--492.
+    Actuarial Journal}, \bold{16}, 487-492.
 }
 \seealso{\url{https://www.maths.ed.ac.uk/~mdecarv/decarvalho2012bsh.html}}
 \examples{

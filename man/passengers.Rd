@@ -4,7 +4,7 @@
 \title{International Airline Traffic Data}
 \description{
   Monthly number of passengers (in thousands) in a group of several
-  international airline companies from January 1949--December 1960.
+  international airline companies from January 1949-December 1960.
 }
 \usage{passengers}
 \format{
@@ -16,6 +16,6 @@
 
   Rodrigues, P. C. and de Carvalho, M. (2013) Spectral modeling of time
   series with missing data. \emph{Applied Mathematical Modelling},
-  \bold{37}, 4676--4684.
+  \bold{37}, 4676-4684.
 }
 \keyword{Business}
