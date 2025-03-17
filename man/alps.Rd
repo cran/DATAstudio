@@ -10,16 +10,10 @@
 \usage{alps}
 \format{
   The \code{alps} data frame contains the following columns:
-  \itemize{
-    \item{\code{date}}{:
-	  date of measurements.
-    }
-    \item{\code{min_montana}, \code{min_zermatt}}{: 
-      daily minimum temperature in ºC on Montana and Zermatt. 
-    }
-    \item{\code{min_montana}, \code{min_zermatt}}{: 
-      daily maximum temperature in ºC on Montana and Zermatt. 
-    }    
+  \describe{
+    \item{\code{date}}{Date of measurements.}
+    \item{\code{min_montana}, \code{min_zermatt}}{Daily minimum temperature in ºC on Montana and Zermatt.}
+    \item{\code{max_montana}, \code{max_zermatt}}{Daily maximum temperature in ºC on Montana and Zermatt.}
   }
 }
 \source{MeteoSwiss}
@@ -47,6 +41,7 @@ plot(alps$min_zermatt, alps$max_zermatt, pch = 20,
 abline(a = 0, b = 1, col = "red", lty = 2)
 par(oldpar)
 
+\dontrun{
 ## to download the NAO daily index in Mhalla et al (2019) use
 ## the R package data.table to access NOAA via ftp 
 link <- "ftp://ftp.cdc.noaa.gov/Public/gbates/teleconn/nao.reanalysis.t10trunc.1948-present.txt"
@@ -54,4 +49,5 @@ NAO.daily <- data.table::fread(link)
 NAO.daily <- data.frame(NAO.daily)
 colnames(NAO.daily) <- c("year", "month", "day", "NAO")
 }
-\keyword{Climatological}
+}
+\keyword{Climatology & Meteorology}

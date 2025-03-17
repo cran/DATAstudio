@@ -13,12 +13,17 @@
   \code{0} = success).
 }
 \references{
-  de Carvalho, M. (2012) A Generalization of the Solis-Wets method.
+  de Carvalho, M. (2012) A Generalization of the Solis--Wets method.
   \emph{Journal of Statistical Planning and Inference}, \bold{142}, 633-644.
 }
 \examples{
+\dontrun{
 data(challenger)
-attach(challenger)
-boxplot(temperature ~ oring, xlab = "Failure", ylab = "Temperature")
+ggplot(challenger, aes(x = as.factor(oring), y = temperature)) +
+    geom_boxplot(fill = "steelblue", alpha = 0.3) +
+    xlab("Failure") +
+    ylab("Temperature (ºF)") +
+    theme_minimal()
+}
 }
 \keyword{Space}

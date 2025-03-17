@@ -9,19 +9,11 @@
 \usage{brexit}
 \format{
   A dataframe with 272 observations on six variables.
-  \itemize{
-    \item{\code{leave}, \code{stay}, \code{undecided}}{: 
-      percentage in favor of each option.
-    }
-    \item{\code{date}}{: 
-      date on which the poll was conducted.
-    }
-    \item{\code{pollster}}{: 
-      institution conducting the poll.
-    }
-    \item{\code{size}}{: 
-      number of polled subjects.
-    }    
+  \describe{
+    \item{\code{leave}, \code{stay}, \code{undecided}}{Percentage in favor of each option.}
+    \item{\code{date}}{Date on which the poll was conducted.}
+    \item{\code{pollster}}{Institution conducting the poll.}
+    \item{\code{size}}{Number of polled subjects.}
   }
 }
 \references{
@@ -47,4 +39,4 @@ points(leave[(stay == leave)], stay[(stay == leave)],
 abline(a = 0, b = 1, lwd = 3)
 par(oldpar)
 }
-\keyword{Political}
+\keyword{Political Science}

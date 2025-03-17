@@ -1,9 +1,9 @@
 \encoding{UTF-8}
 \name{sp500}
 \alias{sp500}
-\title{Standard & Poor 500}
+\title{Standard & Poor's 500}
 \description{
-  Daily Standard and Poor’s index at close from 1988 till 2007. 
+  Daily S&P 500 index at close from 1988 till 2007. 
 }
 \usage{sp500}
 \format{
@@ -15,4 +15,4 @@
   opportunities.  In: \emph{Handbook of EVT and its Applications to Finance
     and Insurance}. Eds F. Longin. Hoboken: Wiley.
 }
-\keyword{Financial}
+\keyword{Finance}

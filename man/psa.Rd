@@ -41,4 +41,4 @@
   Affinity-based measures of biomarker performance evaluation.
   \emph{Statistical Methods in Medical Research}, \bold{20}, 837-853.
 }
-\keyword{Medical}
+\keyword{Medicine}

@@ -5,8 +5,8 @@
 \description{
   Raw interval data series corresponding to weekly minimum and maximum
   values of the MERVAL index (Argentina stock market) ranging from
-  January 1 2016 to September 30 2020, along with prices at open
-  and prices at close. 
+  January 1 2016 to September 30 2020 (along with prices at open
+  and prices at close). 
 }
 \usage{merval}
 \format{
@@ -29,4 +29,4 @@ plot(low, high, pch = 20)
 abline(a = 0, b = 1, lty = 2, col = "gray")
 par(oldpar)
 }
-\keyword{Financial}
+\keyword{Finance}

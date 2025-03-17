@@ -26,4 +26,4 @@
   Bayesian bootstrap inference for the ROC surface.
   \emph{Stat}, \bold{7}, e211.
 }
-\keyword{Medical}
+\keyword{Medicine}

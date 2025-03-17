@@ -13,21 +13,13 @@
 \usage{metsynd}
 \format{
   The data consist of a list with the following elements:
-  \itemize{
-    \item{\code{y0}}{: 
-      GGT levels for women without metabolic syndrome.
-    }
-    \item{\code{y1}}{: 
-      GGT levels for women suffering from metabolic syndrome.
-    }
-    \item{\code{X0}}{: 
-      Curves of arterial oxygen saturation (\%) for women without
-      metabolic syndrome (\code{X0$data}, \code{X0$time}).
-    }
-    \item{\code{X1}}{: 
-      Curves of arterial oxygen saturation (\%) for women suffering from
-      metabolic syndrome (\code{X1$data}, \code{X1$time}).      
-    }
+  \describe{
+    \item{\code{y0}}{GGT levels for women without metabolic syndrome.}
+    \item{\code{y1}}{GGT levels for women suffering from metabolic syndrome.} 
+    \item{\code{X0}}{Curves of arterial oxygen saturation (\%) for women
+      without metabolic syndrome (\code{X0\$data}, \code{X0\$time}).} 
+    \item{\code{X1}}{Curves of arterial oxygen saturation (\%) for women
+      suffering from metabolic syndrome (\code{X1\$data}, \code{X1\$time}).}
   }
 }
 \details{
@@ -68,4 +60,4 @@ for (i in 1:n0)
   lines(t, X0$data[i, ], type = "l", lwd = 3, col = alpha("gray", i / n0))
 par(oldpar)
 }
-\keyword{Medical}
+\keyword{Medicine}

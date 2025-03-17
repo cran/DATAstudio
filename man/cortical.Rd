@@ -9,30 +9,16 @@
 }
 \usage{cortical}
 \format{
-  The \code{cortical} list has the following variables: 	
-  \itemize{
-    \item{\code{cortical$age}}{: 
-      age, in years. 
-    }
-    \item{\code{cortical$group}}{:
-      control patient (\code{Con}) or schizophrenia patient (\code{Scz}).
-    }
-    \item{\code{cortical$sex}}{:
-      male (\code{1}) or female (\code{2}).
-    }
-    \item{\code{cortical$symm}}{:
-      symmetry score obtained from raw 3D brain surface.
-    }
-    \item{\code{cortical$x} and \code{cortical$y}}{
-      \code{x}, \code{y} coordinates of slice from brain
-      surface that intersects the AC (anterior commissure) and PC (posterior
-      commissure).
-    }    
-    \item{\code{cortical$r}}{
-      500 radii from angular polar coordinates.
-    }    
+  The \code{cortical} list has the following variables:
+  \describe{
+    \item{\code{age}}{Age, in years.}
+    \item{\code{group}}{Control patient (\code{Con}) or schizophrenia patient (\code{Scz}).} 
+    \item{\code{sex}}{Male (\code{1}) or female (\code{2}).}
+    \item{\code{symm}}{Symmetry score obtained from raw 3D brain surface.}
+    \item{\code{x} and \code{y}}{Coordinates of slice from brain surface that intersects the AC (anterior commissure) and PC (posterior commissure).}
+    \item{\code{cortical\$r}}{500 radii from angular polar coordinates.}
   }
-}
+}  
 \details{
   The data were gathered from a neuroscience study conducted at the
   University of British Columbia, Canada, and documented in Brignell
@@ -42,11 +28,11 @@
 }
 \references{
   Brignell, C.J., Dryden, I.L., Gattone, S.A., Park, B., Leask, S.,
-  Browne, W.J. and Flynn, S. (2010) Surface shape analysis, with an
+  Browne, W.J., and Flynn, S. (2010) Surface shape analysis, with an
   application to brain surface asymmetry in
   schizophrenia. \emph{Biostatistics}, \bold{11}, 609-630.
   
-  Martos, G. & de Carvalho, M. (2018) Discrimination surfaces with
+  Martos, G. and de Carvalho, M. (2018) Discrimination surfaces with
   application to region-specific brain asymmetry
   analysis. \emph{Statistics in Medicine}, \bold{37}, 1859-1873.
 }
@@ -64,4 +50,4 @@
         cortical$r[, i] * sin(2 * pi * 1:m / m), type = "l",
         col = alpha("gray", i / n))
 }
-\keyword{Medical}
+\keyword{Medicine}

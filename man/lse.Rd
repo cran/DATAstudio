@@ -11,7 +11,8 @@
   The \code{lse} data frame has 6894 rows and 27 columns.
 }
 \references{
-  Rubio, R., de Carvalho, M., and Huser (2018) Similarity-based
-  clustering of extreme losses from the London stock exchange.
+  de Carvalho, M., Rubio, R., and Huser (2023).
+  Similarity-based clustering for patterns of extreme values.
+  Stat, \bold{12}, e560.
 }
-\keyword{Financial}
+\keyword{Finance}

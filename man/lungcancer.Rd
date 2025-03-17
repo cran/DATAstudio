@@ -35,4 +35,4 @@
   In: \emph{Nonparametric Bayesian Methods in Biostatistics and
     Bioinformatics}. Eds R. Mitra and P. Mueller. Cham: Springer.
 }
-\keyword{Medical}
+\keyword{Medicine}

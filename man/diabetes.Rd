@@ -13,18 +13,10 @@
 \usage{diabetes}
 \format{
   The \code{diabetes} data frame contains the following columns:
-  \itemize{
-    \item{\code{marker}}{: 
-      postprandial blood glucose measurements (mg/dl) obtained from a
-      fingerstick.
-    }
-    \item{\code{status}}{: 
-      disease status, with \code{1} identifying subjects diagnosed with
-      diabetes.
-    }
-    \item{\code{age}}{
-      age in years.
-    }
+  \describe{
+    \item{\code{marker}}{Postprandial blood glucose measurements (mg/dl) obtained from a fingerstick.}
+    \item{\code{status}}{Disease status, with \code{1} identifying subjects diagnosed with diabetes.}
+    \item{\code{age}}{Age in years.}
   }
 }
 \references{
@@ -40,4 +32,4 @@
 data(diabetes)
 plot(diabetes, pch = 20, main = "Diabetes Data")
 }
-\keyword{Medical}
+\keyword{Medicine}

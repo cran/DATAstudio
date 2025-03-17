@@ -13,27 +13,27 @@
   \code{x} (forest cover) and \code{y} (open field).
 }
 \details{
-  Preprocessing is conducted as described in Ferrez et al (2011),
+  Preprocessing was conducted as described in Ferrez et al (2011),
   and for applications of this dataset within the context of extreme
   value theory see de Carvalho \emph{et al.} (2013), de Carvalho and
   Davison (2014) as well as Castro and de Carvalho (2017).
 }
 \references{
-  Castro, D. & de Carvalho, M. (2017) Spectral density regression for
+  Castro, D. and de Carvalho, M. (2017) Spectral density regression for
   bivariate extremes. \emph{Stochastic Environmental Research and
     Risk Assessment}, \bold{31}, 1603-1613.
   
-  de Carvalho, M., Oumow, B., Segers, J. and Warchol, M. (2013)
+  de Carvalho, M., Oumow, B., Segers, J., and Warchol, M. (2013)
   A Euclidean likelihood estimator for bivariate tail dependence.
   \emph{Communications in Statistics—Theory and Methods}, \bold{42},
   1176-1192.
   
-  de Carvalho, M. & Davison, A. C. (2014)
+  de Carvalho, M. and Davison, A. C. (2014)
   Spectral density ratio models for multivariate extremes.
   \emph{Journal of the American Statistical Association}, \bold{109},
   764-776.
   
-  Ferrez, J., A. C. Davison, and Rebetez., M. (2011) Extreme
+  Ferrez, J., Davison, A. C., and Rebetez., M. (2011) Extreme
   temperature analysis under forest cover compared to an open field.
   \emph{Agricultural and Forest Meteorology}, \bold{151}, 992-1001.
 }
@@ -54,4 +54,4 @@ plot(fit)
 rug(fit$w)
 }
 }
-\keyword{Climatological}
+\keyword{Forestry}

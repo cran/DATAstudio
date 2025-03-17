@@ -9,20 +9,20 @@
 }
 \usage{fire}
 \format{A dataframe with 2167 observations on five variables, namely:
-  \itemize{
-    \item{\code{Positions}}{: date.}
-    \item{\code{building}}{: loss to buildings.}
-    \item{\code{content}}{: loss to content.}
-    \item{\code{profits}}{: loss to profits.}
-    \item{\code{total}}{: total loss.}
+  \describe{
+    \item{\code{Positions}}{Date.}
+    \item{\code{building}}{Loss to buildings.}
+    \item{\code{content}}{Loss to content.}
+    \item{\code{profits}}{Loss to profits.}
+    \item{\code{total}}{Total loss.}
   }
 }
 \references{
-  de Carvalho, M. & Marques, F. (2012) Jackknife Euclidean
+  de Carvalho, M. and Marques, F. (2012) Jackknife Euclidean
   likelihood-based inference for Spearman's rho.  \emph{North American
     Actuarial Journal}, \bold{16}, 487-492.
 }
-\seealso{\url{https://www.maths.ed.ac.uk/~mdecarv/decarvalho2012bsh.html}}
+%% \seealso{\url{https://www.maths.ed.ac.uk/~mdecarv/decarvalho2012bsh.html}}
 \examples{
 data(fire)
 attach(fire)
@@ -37,4 +37,4 @@ if (!require("spearmanCI")) install.packages("spearmanCI")
 spearmanCI(building, contents)
 }
 }
-\keyword{Actuarial}
+\keyword{Actuarial Sciences}
