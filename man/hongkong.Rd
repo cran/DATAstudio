@@ -10,10 +10,10 @@
 \format{
   The \code{hongkong} data frame has 48517 observations and 2 columns:
   \describe{
-    \item{\code{date}}{: 
+    \item{\code{date}}{
       Year-month-day.
     }
-    \item{\code{value}}{: 
+    \item{\code{value}}{  
       Daily maximum temperature (in degrees Celsius). 
     }
   }

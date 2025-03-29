@@ -1,7 +1,7 @@
-1926f38c139b271c829e0cfe0dd4f33f *DESCRIPTION
+b81f1c21c0e9fb731ce8bfb2e5aa3426 *DESCRIPTION
 bf6669aa35646e9ba531ae62b7e22192 *NAMESPACE
 0f79fcb1a9afcda3278ef42386a50d68 *R/dataset.R
-f0336c7bc356a44e90df6df8338ea87f *R/hidden.R
+7514402afcbe37b050f9e3fd493a9398 *R/hidden.R
 26d8148e38c682a038b4cfe687348fa3 *data/GDP.RData
 91bac8b98e1d41e7bd3aac66a528f8e5 *data/GDPIP.RData
 e2e9032a4c3d2c40b1bd09c658d94472 *data/alps.RData
@@ -28,6 +28,7 @@ ae613abd81bf02823777ea2f98ab7f3c *data/merval.RData
 aea5dbe67c413497a838852321d51a55 *data/psa.RData
 be671b6608632410cc3e78b6baaa58d1 *data/santiago.RData
 73c6af58714477fddb4029043429ee37 *data/sp500.RData
+f7f43fa682e8610ce7614587259028f3 *data/sydney.RData
 5702f04fce851722a1bcc4ca3975c73e *data/tmt.RData
 4face72acefb8fdee579a719c7f02ded *data/unemployment.RData
 77e0a9bd801e70737f60bcf47952eb95 *data/wildfire.RData
@@ -46,10 +47,10 @@ e4cb58cef2076446b50780d89e0cbbbc *man/challenger.Rd
 c3c94e231a0bbfc9d0ad4fd053daee96 *man/dataset.Rd
 942a74f135d3bb04fa77fb762b0559a8 *man/diabetes.Rd
 9b3d4f1f422983b76f0bb8c183534065 *man/ecg200.Rd
-85205e57d61bda2f4fdf070b5de04912 *man/faang.Rd
+b50188b68bbfe5ae818c087e540536d7 *man/faang.Rd
 03b65792598affb8475de2a187c51943 *man/figures/logo.png
 b0f7ebbf5a30b4dc4a93fbdb45fcf1f1 *man/fire.Rd
-354c6133ea492b9ab7114f7af7210b3f *man/hongkong.Rd
+d92dd1b9d5ea84459c246d65b46e6b5e *man/hongkong.Rd
 831b70cd747795e6ebe81b9750d66a4e *man/hurricane.Rd
 9fe9301f1026a27b8e067f9386be5374 *man/lisbon.Rd
 2ade2123a0c85fd9a2b0d02a469d2a31 *man/lse.Rd
@@ -62,6 +63,7 @@ c56a9b74d41bd56120d18e352632a1e1 *man/passengers.Rd
 c91bd72a662e5a55cef856c179c55776 *man/psa.Rd
 9c05d2998b046c8a3ad30c22d75cb57e *man/santiago.Rd
 af8bee97a360851482a95fd0311e940d *man/sp500.Rd
+8e74c8eee14de7c3fa74a416a6ebcc05 *man/sydney.Rd
 207e3851b293f0ec0d341d5995263975 *man/thefts.Rd
 473b4f206fce7d389f5454941673b37a *man/tmt.Rd
 6ac9388cd559060e8df1296ae64c62bb *man/unemployment.Rd

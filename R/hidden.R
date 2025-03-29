@@ -3,7 +3,7 @@
   RFver <- read.dcf(file = system.file("DESCRIPTION", package = pkgname),
                     fields = "Version")
   packageStartupMessage(paste
-                       ("##", pkgname, RFver, "                                ##"))
+                       ("##", pkgname, RFver, "                              ##"))
   packageStartupMessage("## ---------------------------------------------- ##")
   packageStartupMessage("##  Copyright (C) 2025                            ##")
   packageStartupMessage("##  M. de Carvalho                                ##")

@@ -1,12 +1,15 @@
 \encoding{UTF-8}
-\name{FAANG}
-\alias{FAANG}
+\name{faang}
+\alias{faang}
 \title{FAANG Data}
 \description{
-  Daily prices at close for FAANG stocks.
+  Daily information on FAANG stocks.
 }
 \format{
-  The \code{faang} data frame has 545 rows and 6 columns.
+  The \code{faang} object is a list with five elements, each containing
+  a matrix with columns corresponding to the opening, highest, lowest,
+  and closing prices, as well as trading volume and adjusted closing
+  price.
 }
 \details{
   To load the file use the command \code{dataset("faang")}. 
