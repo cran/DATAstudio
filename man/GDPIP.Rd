@@ -18,7 +18,7 @@
 \source{
   Federal Reserve Bank of Philadelphia.
 }
-\seealso{\url{https://www.maths.ed.ac.uk/~mdecarv/decarvalho2017sh.html}}
+\seealso{\url{https://webhomes.maths.ed.ac.uk/~mdecarv/decarvalho2017sh.html}}
 \examples{
 data(GDPIP)
 plot(GDPIP)

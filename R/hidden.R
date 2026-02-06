@@ -5,7 +5,11 @@
   packageStartupMessage(paste
                        ("##", pkgname, RFver, "                              ##"))
   packageStartupMessage("## ---------------------------------------------- ##")
-  packageStartupMessage("##  Copyright (C) 2025                            ##")
+  ## packageStartupMessage("##  Copyright (C) 2025                            ##")
+  packageStartupMessage(
+  sprintf("##  Copyright (C) %s                            ##",
+          format(Sys.Date(), "%Y"))
+)
   packageStartupMessage("##  M. de Carvalho                                ##")
   packageStartupMessage("##  University of Edinburgh                       ##")
   packageStartupMessage("## ============================================== ##")

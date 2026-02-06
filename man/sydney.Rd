@@ -1,7 +1,6 @@
 \name{sydney}
 \alias{sydney}
-\title{Monthly sea levels for Fort Denison (Sydney)}
-\usage{data(sydney)}
+\title{Monthly Sea Levels for Fort Denison (Sydney)}
 \description{
   The \code{sydney} data frame contains monthly sea level measurements
   for Fort Denison (Sydney) from 1914 to 2023.
@@ -20,9 +19,8 @@
   }
 }
 \references{
-  de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2025, to
-  appear). \emph{Handbook on Statistics of Extremes}. Chapman &
-  Hall/CRC. Boca Raton, FL.
+  de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
+  \emph{Handbook on Statistics of Extremes}. Chapman & Hall/CRC. Boca Raton, FL.
 }
 \source{
   Australina Government, Bureau of Meteorology.

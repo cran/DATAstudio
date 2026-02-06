@@ -1,4 +1,4 @@
-citHeader("To cite the 'DATAstudio' package in publications use:")
+citHeader("To cite the 'DATAstudio' package in publications use the reference below as well as those provided in the documentation:")
 
 year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
 vers <- paste("R package version", meta$Version)

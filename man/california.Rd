@@ -1,7 +1,6 @@
 \name{california}
 \alias{california}
 \title{California Fire Perimeters}
-\usage{data(california)}
 \description{
   The \code{california} data frame has 16577 rows and 2 columns.
   The first column contains the date, the second
@@ -15,10 +14,15 @@
       flames.}
   }
 }
+\details{
+  Data are available from GitHub
+  and hence can be gathered using the command \code{dataset("california")}. 
+}
+
+
 \references{
-  de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2025, to
-  appear). \emph{Handbook on Statistics of Extremes}. Chapman &
-  Hall/CRC. Boca Raton, FL.
+  de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
+  \emph{Handbook on Statistics of Extremes}. Chapman & Hall/CRC. Boca Raton, FL.
 }
 \source{
   California State Geoportal.

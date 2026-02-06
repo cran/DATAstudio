@@ -1,8 +1,8 @@
 Package: DATAstudio
-Version: 1.2.1
-Date: 2025-03-16
+Version: 1.2.2
+Date: 2026-02-04
 Title: The Research Data Warehouse of Miguel de Carvalho
-Description: Pulls together a collection of datasets from Miguel de Carvalho research articles. Including, for example:
+Description: Pulls together a collection of datasets from Miguel de Carvalho research articles and books. Including, for example:
     - de Carvalho (2012) <doi:10.1016/j.jspi.2011.08.016>;
     - de Carvalho et al (2012) <doi:10.1080/03610926.2012.709905>;
     - de Carvalho et al (2012) <doi:10.1016/j.econlet.2011.09.007>);
@@ -10,7 +10,7 @@ Description: Pulls together a collection of datasets from Miguel de Carvalho res
     - de Carvalho and Rua (2017) <doi:10.1016/j.ijforecast.2015.09.004>;
     - de Carvalho et al (2023) <doi:10.1002/sta4.560>;
     - de Carvalho et al (2022) <doi:10.1007/s13253-021-00469-9>;
-    - Palacios et al (2024) <doi:10.1214/24-BA1420>.
+    - Palacios et al (2025) <doi:10.1214/24-BA1420>.
 Authors@R: c(person("Miguel", "de Carvalho", role = c("aut", "cre"), email = "Miguel.deCarvalho@ed.ac.uk"))
 Author: Miguel de Carvalho [aut, cre]
 Depends: R (>= 3.5)
@@ -20,7 +20,7 @@ Repository: CRAN
 Suggests: extremis, spearmanCI
 Imports: data.table, ggplot2, scales
 LazyData: true
-URL: https://www.maths.ed.ac.uk/~mdecarv/
+URL: https://webhomes.maths.ed.ac.uk/~mdecarv/
 NeedsCompilation: no
-Packaged: 2025-03-29 12:18:51 UTC; mdecarvalho
-Date/Publication: 2025-03-29 12:30:02 UTC
+Packaged: 2026-02-06 07:29:12 UTC; mdecarvalho
+Date/Publication: 2026-02-06 07:50:02 UTC

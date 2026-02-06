@@ -53,7 +53,7 @@
 \source{Instituto Dom Luiz}
 \references{
   Lee, M. W., de Carvalho, M., Paulin, D., Pereira, S., Trigo, R., and
-  da Camara, C. (2025). BLAST: A Bayesian Lasso tail index regression
+  da Camara, C. (2026). BLAST: A Bayesian lasso tail index regression
   model with an application to extreme wildfires. \emph{Submitted}.
 }
 

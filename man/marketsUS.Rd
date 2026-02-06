@@ -12,8 +12,8 @@
   and quotation at close of the \code{nasdaq} and \code{nyse} indices.
 }
 \references{
-    de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2025, to
-  appear). \emph{Handbook on Statistics of Extremes}. Chapman &
+  de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
+  \emph{Handbook on Statistics of Extremes}. Chapman &
   Hall/CRC. Boca Raton, FL.
 
   de Carvalho, M., Kumukova, A., and dos Reis, G. (2022) Regression-type

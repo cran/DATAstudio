@@ -17,7 +17,7 @@
   \emph{Journal of the Royal Statistical Society, Ser.} C, \bold{62}, 535-550.
 }
 \seealso{
-  \url{https://www.maths.ed.ac.uk/~mdecarv/decarvalho2013ash.html}
+  \url{https://webhomes.maths.ed.ac.uk/~mdecarv/decarvalho2013ash.html}
 }
 \source{
   United States Department of Labor---Employment & Training Administration.

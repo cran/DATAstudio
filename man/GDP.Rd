@@ -35,6 +35,6 @@ print(fit)
 }
 }
 \seealso{
-  \url{https://www.maths.ed.ac.uk/~mdecarv/decarvalho2012dsh.html}
+  \url{https://webhomes.maths.ed.ac.uk/~mdecarv/decarvalho2012dsh.html}
 }
 \keyword{Economics}
