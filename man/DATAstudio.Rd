@@ -9,7 +9,7 @@
   collection of datasets used in Miguel de Carvalho's research articles
   and books. For a complete list of datasets and documentation, type
   \code{help.start()} and follow the link to \pkg{DATAstudio} on the
-  Package Index.
+  Package Index. 
 
   Data can be loaded using the commands \code{data} or \code{dataset}.
   The command \code{dataset} is used to retrieve datasets that are
@@ -19,6 +19,9 @@
   please cite the package and the references provided in the
   documentation. Type \code{citation("DATAstudio")}.
 
+  I gratefully acknowledge all contributors to the Handbook of
+  Statistics of Extremes.
+  
   \if{html}{
     \figure{logo.png}{options: alt='logo' width='120'}
     

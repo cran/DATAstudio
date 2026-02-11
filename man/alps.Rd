@@ -3,7 +3,7 @@
 \alias{alps}
 \title{Swiss Alps Temperature Data}
 \description{
-  The \code{alps} data data consist of daily winter temperature
+  The \code{alps} data consist of daily winter temperature
   minima and maxima measured at 2m above ground surface 
   at two sites in the Swiss Alps: Montana and Zermatt.
 }

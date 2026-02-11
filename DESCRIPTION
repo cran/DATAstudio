@@ -1,6 +1,6 @@
 Package: DATAstudio
-Version: 1.2.2
-Date: 2026-02-04
+Version: 1.2.3
+Date: 2026-02-11
 Title: The Research Data Warehouse of Miguel de Carvalho
 Description: Pulls together a collection of datasets from Miguel de Carvalho research articles and books. Including, for example:
     - de Carvalho (2012) <doi:10.1016/j.jspi.2011.08.016>;
@@ -22,5 +22,5 @@ Imports: data.table, ggplot2, scales
 LazyData: true
 URL: https://webhomes.maths.ed.ac.uk/~mdecarv/
 NeedsCompilation: no
-Packaged: 2026-02-06 07:29:12 UTC; mdecarvalho
-Date/Publication: 2026-02-06 07:50:02 UTC
+Packaged: 2026-02-11 13:41:35 UTC; mdecarvalho
+Date/Publication: 2026-02-11 14:30:13 UTC

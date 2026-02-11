@@ -18,11 +18,13 @@
   Data are available from GitHub
   and hence can be gathered using the command \code{dataset("california")}. 
 }
-
-
 \references{
   de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
   \emph{Handbook on Statistics of Extremes}. Chapman & Hall/CRC. Boca Raton, FL.
+
+  de Carvalho, M., Palacios, V., Henriques-Rodrigues, L., and Lee, M. W. (2026).
+  Regression Models for Extreme Events.
+  In: Handbook of Statistics of Extremes, Chapter 6, pp. 99--120.
 }
 \source{
   California State Geoportal.
