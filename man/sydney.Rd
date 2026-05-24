@@ -1,6 +1,6 @@
 \name{sydney}
 \alias{sydney}
-\title{Monthly Sea Levels for Fort Denison (Sydney)}
+\title{Monthly Sea Levels for Fort Denison}
 \description{
   The \code{sydney} data frame contains monthly sea level measurements
   for Fort Denison (Sydney) from 1914 to 2023.
@@ -18,7 +18,12 @@
     \item{St.Devn}{Standard deviation of sea level (m).}
   }
 }
+\details{Use \code{dataset("sydney")} to load these data from GitHub.}
 \references{
+  de Carvalho, M., and Carcaiso, V. (2026).
+  Learning about extreme value distributions from data. In: \emph{Handbook of Statistics of Extremes},
+  Chapter 3, pp. 37--56.
+
   de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
   \emph{Handbook on Statistics of Extremes}. Chapman & Hall/CRC. Boca Raton, FL.
 }

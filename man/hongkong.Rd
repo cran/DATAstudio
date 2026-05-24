@@ -19,11 +19,10 @@
 }
 \details{
   Data on daily maximum temperatures with no missing values,
-  with a total of 48517 observations. Data are available from GitHub
-  and hence can be gathered using the command \code{dataset("hongkong")}. 
+  with a total of 48517 observations. Use \code{dataset("hongkong")} to load these data from GitHub. 
 }
 \references{
-  Carcaiso, V., De Carvalho, M., Prosdocimi, I. and Antoniano-Villalobos,
+  Carcaiso, V., de Carvalho, M., Prosdocimi, I. and Antoniano-Villalobos,
   I. (2026). Bayesian mixture models for heterogeneous extremes. arXiv:2509.15359.
   
   de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).

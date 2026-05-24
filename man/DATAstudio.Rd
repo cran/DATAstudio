@@ -26,13 +26,14 @@
     \figure{logo.png}{options: alt='logo' width='120'}
     
     \figure{handbook.jpg}{options: alt='handbook' width='120'}
-  }  
-  \if{latex}{
-    ---------\figure{logo.png}{options: width=3cm}-------------------------------------------
-    \figure{handbook.jpg}{options: width=2.5cm}
-    ------------------
-    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-    
-  }
+	  }  
+		  \if{latex}{
+		    \out{\begin{center}}
+		    \figure{logo.png}{options: width=2.7cm}
+		    \out{\hspace{1.6cm}}
+			    \figure{handbook.jpg}{options: width=2.05cm}
+		    \out{\end{center}}
+		  }
 }
 \author{Miguel de Carvalho; School of Mathematics, University of Edinburgh.}
 \seealso{

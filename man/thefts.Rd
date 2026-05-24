@@ -3,7 +3,7 @@
 \alias{thefts}
 \title{Thefts in Buenos Aires}
 \description{
-  To load the file use the command \code{dataset("thefts")}. 
+  Use \code{dataset("thefts")} to load these data from GitHub. 
   The data consist of locations (latitude and longitude) of thefts in
   Buenos Aires from September 2019 to December 2020. For further details
   see de Carvalho and Martos (2024).
@@ -15,8 +15,9 @@
   \emph{Transactions on Machine Learning Research}, \bold{5}, 1-31. 
 }
 \examples{
-dataset("thefts")
-summary(thefts)
-head(thefts)
+if (dataset("thefts")) {
+  summary(thefts)
+  head(thefts)
+}
 }
 \keyword{Criminology}

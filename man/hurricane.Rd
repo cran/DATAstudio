@@ -5,9 +5,6 @@
   Geographical coordinates, wind speed, and atmospheric pressure
   information for hurricanes from 1970 to 2011.
 }
-\usage{
-data(hurricane)
-}
 \format{
   The \code{hurricane} data frame has 43122 rows and 8 columns:  
   \describe{
@@ -20,6 +17,9 @@ data(hurricane)
     \item{\code{Wind}}{: Wind speed (in knots)}
     \item{\code{Pressure}}{: Atmospheric pressure (millibars).}
   }
+}
+\details{
+  Use \code{dataset("hurricane")} to load these data from GitHub. 
 }
 \references{
   de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).

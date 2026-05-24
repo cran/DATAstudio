@@ -40,12 +40,10 @@ The \code{landslide} dataset contains the following columns:
     along the slope direction.}
   \item{\code{profCurv_s}}{Standard deviation of profile curvature within the grid cell.}
 }
-  Data are available from GitHub
-  and hence can be gathered using the command \code{dataset("landslide")}. 
+  Use \code{dataset("landslide")} to load these data from GitHub. 
 }
 \details{
-  Data are available from GitHub
-  and hence can be gathered using the command \code{dataset("landslide")}. 
+  Use \code{dataset("landslide")} to load these data from GitHub. 
 }
 \references{
 de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
@@ -53,6 +51,6 @@ de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
 
   Yadav, R., Lombardo, L., and Huser, R. (2026).
   Statistics of Extremes for Landslides and Earthquakes.
-  In: Handbook of Statistics of Extremes, Chapter 27, pp. 611--632.
+  In: \emph{Handbook of Statistics of Extremes}, Chapter 27, pp. 611--632.
 }
 \keyword{Geology}

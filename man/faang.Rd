@@ -3,7 +3,9 @@
 \alias{faang}
 \title{FAANG Data}
 \description{
-  Daily information on FAANG stocks.
+  Daily information on FAANG stocks; FAANG is an acronym for popular
+  tech stocks, namely (Meta’s) Facebook, Apple, Amazon, Netflix, and
+  (Alphabet’s) Google.
 }
 \format{
   The \code{faang} object is a list with five elements, each containing
@@ -12,11 +14,8 @@
   price.
 }
 \details{
-  To load the file use the command \code{dataset("faang")}. 
-  FAANG is an acronym for popular tech stocks, namely (Meta’s) Facebook,
-  Apple, Amazon, Netflix, and (Alphabet’s) Google. The data consist of
-  prices at close for these stocks over 2012-2024. The data were
-  gathered from Yahoo Finance.
+  The data consist of prices at close for these stocks over 2012-2024,
+  and were gathered from Yahoo Finance.  Use \code{dataset("faang")} to load these data from GitHub.
 }
 \references{
    de Carvalho, M. and Palacios Ramirez, K. (2025)
@@ -29,4 +28,4 @@
 dataset("faang")
 }
 }
-\keyword{datasets}
+\keyword{Finance}

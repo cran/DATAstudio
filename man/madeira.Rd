@@ -1,7 +1,7 @@
 \encoding{UTF-8}
 \name{madeira}
 \alias{madeira}
-\title{Rainfall Data from Madeira, Portugal}
+\title{Rainfall Data from Madeira}
 \description{   
   Rainfall data from Madeira, Portugal, from January 1973 to June 2018.
 }
@@ -24,13 +24,20 @@
   After eliminating the dry events (i.e., zero precipitation) and the
   missing precipitation data (two observations) one is left with a
   total of 532 observations, and that is the version of the data
-  analyzed in de Carvalho et al (2022).
+  analyzed in de Carvalho et al (2022, 2026).
 }
 \references{
   de Carvalho, M., Pereira, S., Pereira, S., and de Zea Bermudez, P. 
   (2022). An extreme value Bayesian lasso for the conditional
   left and right tails.  \emph{Journal of Agricultural, Biological and
-    Environmental Statistics}, \bold{27}, 222–239.
+    Environmental Statistics}, \bold{27}, 222--239.
+    
+  de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
+  \emph{Handbook on Statistics of Extremes}. Chapman & Hall/CRC. Boca Raton, FL.
+  
+  de Carvalho, M., Palacios, V., Henriques-Rodrigues, L., and Lee, M. W. (2026).
+  Regression models for extreme events. In: \emph{Handbook of Statistics of Extremes},
+  Chapter 6, pp. 99--120.
 }
 \source{
   National Oceanic and Atmospheric Administration.

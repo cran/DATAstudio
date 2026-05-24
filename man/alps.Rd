@@ -44,7 +44,8 @@ par(oldpar)
 \dontrun{
 ## to download the NAO daily index in Mhalla et al (2019) use
 ## the R package data.table to access NOAA via ftp 
-link <- "ftp://ftp.cdc.noaa.gov/Public/gbates/teleconn/nao.reanalysis.t10trunc.1948-present.txt"
+	link <- paste0("ftp://ftp.cdc.noaa.gov/Public/gbates/teleconn/",
+	               "nao.reanalysis.t10trunc.1948-present.txt")
 NAO.daily <- data.table::fread(link)
 NAO.daily <- data.frame(NAO.daily)
 colnames(NAO.daily) <- c("year", "month", "day", "NAO")

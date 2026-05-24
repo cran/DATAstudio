@@ -12,7 +12,18 @@ dataset <- function(name) {
     url  <- paste0(base, name, ".RData")
 
     tf <- tempfile(fileext = ".RData")
-    utils::download.file(url, tf, mode = "wb", quiet = TRUE)
+    res <- tryCatch(
+        suppressWarnings(
+            utils::download.file(url, tf, mode = "wb", quiet = TRUE)
+        ),
+        error = identity
+    )
+
+    if (inherits(res, "error")) {
+        message("Unable to download dataset '", name, "' from ", url, ": ",
+                conditionMessage(res))
+        return(invisible(FALSE))
+    }
 
     on.exit(unlink(tf), add = TRUE)
     load(tf, envir = .GlobalEnv)

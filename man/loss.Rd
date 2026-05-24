@@ -15,8 +15,8 @@ The \code{loss} data frame contains the following variables:
 }
 }
 \details{
-  The data were collected from Frees and Valdez (1998). Data are
-  gathered using the command \code{dataset("landslide")}.
+  The data were collected from Frees and Valdez (1998).
+  Use \code{dataset("loss")} to load these data from GitHub. 
 }
 \references{
 de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
@@ -28,10 +28,10 @@ North American Actuarial Journal, 2, 1--25.
 
 Albrecher, H. and Beirlant, J. (2026).
 Statistics of Extremes for the Insurance Industry.
-In: Handbook of Statistics of Extremes, Chapter 29, pp.~655--673.
+In: Handbook of Statistics of Extremes, Chapter 29, pp. 655--673.
 
 Belzile, L. R. and Nešlehová, J. G. (2026).
 Statistics of Extremes for Incomplete Data, with Application to Lifetime and Liability Claim Modeling.
-In: Handbook of Statistics of Extremes, Chapter 31, pp.~691--708.
+In: Handbook of Statistics of Extremes, Chapter 31, pp. 691--708.
 }
 \keyword{Actuarial Sciences}

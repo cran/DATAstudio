@@ -3,13 +3,13 @@
 \alias{flights}
 \title{Flight Delay Data}
 \description{
-A dataset containing daily total delays of major U.S.\ airlines.
-The raw data were obtained from the US\ Bureau of Transportation Statistics
+A dataset containing daily total delays of major US airlines.
+The raw data were obtained from the US Bureau of Transportation Statistics
 and subsequently preprocessed.}
 \format{
 A named \code{list} with three components:
 \describe{
-  \item{\code{airports}}{A data frame containing information on US\ airports.}
+  \item{\code{airports}}{A data frame containing information on US airports.}
   \item{\code{delays}}{A numeric array containing daily aggregated delays at the airports in the dataset.}
   \item{\code{flightCounts}}{A numeric array containing yearly numbers of flights between airports in the dataset.}
 }
@@ -30,7 +30,7 @@ incoming flights and \code{"departures"} containing delays of outgoing flights.
 Zeros indicate that flights occurred but none were delayed; \code{NA}s indicate
 that no flights occurred on that day.
 
-The component \code{airports} is a data frame containing information on US\ airports.
+The component \code{airports} is a data frame containing information on US airports.
 Missing entries are indicated by \code{NA}.
 \describe{
   \item{\code{IATA}}{Three-letter IATA airport code.}
@@ -45,13 +45,12 @@ Missing entries are indicated by \code{NA}.
   \item{\code{DST}}{Daylight saving time used at the airport.}
   \item{\code{Timezone2}}{Name of the timezone of the airport.}
 }
-Data are available from GitHub
-and hence can be gathered using the command \code{dataset("flights")}.   
+Use \code{dataset("flights")} to load these data from GitHub.   
 }
 \source{
 Reproduced with permission from the \pkg{graphicalExtremes} package. 
 
-Raw delay data were obtained from the US\ Bureau of Transportation Statistics.
+Raw delay data were obtained from the US Bureau of Transportation Statistics.
 
 Airport metadata were obtained from:
 \url{https://openflights.org/data}.
@@ -70,11 +69,13 @@ Graphical modeling for extremes.
 }
 \examples{
 require(DATAstudio)
-dataset("flights")
-# Total number of flights in the dataset:
-totalFlightCounts <- apply(flights$flightCounts, c(1, 2), sum)
+if (dataset("flights")) {
+  # Total number of flights in the dataset:
+  totalFlightCounts <- apply(flights$flightCounts, c(1, 2), sum)
 
-# Number of flights in selected years:
-flightCounts_10_11 <- apply(flights$flightCounts[, , c("2010", "2011")], c(1, 2), sum)
+  # Number of flights in selected years:
+  flightCounts_10_11 <- apply(flights$flightCounts[, , c("2010", "2011")],
+                              c(1, 2), sum)
 }
-\keyword{datasets}
+}
+\keyword{Transportation}

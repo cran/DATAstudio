@@ -22,7 +22,7 @@
   from the declustered time series; the \emph{non-unique row names} indicate the year of
   observation. Each column corresponds to a gauging station, with column indices in
   \code{data_raw} and \code{data_clustered} matching row indices in \code{info}.
-  See Asadi et al.\ (2015) for details on the preprocessing and declustering.
+  See Asadi et al. (2015) for details on the preprocessing and declustering.
   
   The \code{info} data frame contains the following variables for each gauging station
   or its associated catchment area:
@@ -35,8 +35,7 @@
       \item{\code{Slope}}{Mean slope of the catchment.}
       \item{\code{PlotCoordX}, \code{PlotCoordY}}{Coordinates used to arrange gauging stations when plotting a flow graph.}
     }
-    Data are available from GitHub
-    and hence can be gathered using the command \code{dataset("danube")}.     
+    Use \code{dataset("danube")} to load these data from GitHub.     
 }
 \source{
   Bavarian Environmental Agency, \url{https://www.gkd.bayern.de} and \pkg{graphicalExtremes}. 

@@ -12,13 +12,14 @@
 dataset(name)
 }
 \arguments{
-  \item{name}{a string containing the link.}
+  \item{name}{a string containing the dataset name.}
 }
 \examples{
 ## Download data
-dataset("thefts")
-head(thefts)
-summary(thefts)
+if (dataset("thefts")) {
+  head(thefts)
+  summary(thefts)
+}
 ## for details on the dataset type
 ?thefts
 }

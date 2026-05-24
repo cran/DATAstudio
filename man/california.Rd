@@ -9,14 +9,13 @@
 \format{
   This data frame contains the following columns:
   \describe{
-    \item{Date}{A numeric vector of dates of wildfires.}
-    \item{Acres}{A numeric vector of thousands of acres consumed by the
+    \item{\code{Date}}{A numeric vector of dates of wildfires.}
+    \item{\code{Acres}}{A numeric vector of thousands of acres consumed by the
       flames.}
   }
 }
 \details{
-  Data are available from GitHub
-  and hence can be gathered using the command \code{dataset("california")}. 
+  Use \code{dataset("california")} to load these data from GitHub. 
 }
 \references{
   de Carvalho, M., Huser, R., Naveau, P., and Reich, B. J. (2026).
